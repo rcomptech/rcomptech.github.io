@@ -197,15 +197,16 @@ a { color: inherit; text-decoration: none; }
   flex-direction: column;
   justify-content: center;
 }
-.info-card h4 { font-size: 1.05rem; font-weight: 800; line-height: 1.4; }
+.info-card h4 { font-size: 1.05rem; font-weight: 800; line-height: 1.2; margin: 0; }
 .info-card .card-en {
-  margin-top: 0.15rem;
+  margin-top: 0.1rem;
+  line-height: 1.3;  
   font-size: 0.78rem;
   font-weight: 400;
   color: #a3abb7;
   letter-spacing: 0.02em;
 }
-.info-card p { margin-top: 0.7rem; color: var(--muted); line-height: 1.7; font-size: 0.95rem; }
+.info-card p { margin-top: 1.1rem; color: var(--muted); line-height: 1.7; font-size: 0.95rem; }
 
 .info-table { width: 100%; border-collapse: collapse; border-top: 2px solid var(--ink); }
 .info-table th, .info-table td { padding: 0.9rem 0.6rem; border-bottom: 1px solid var(--line); text-align: left; }
